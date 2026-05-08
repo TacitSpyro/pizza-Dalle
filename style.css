@@ -1,0 +1,36 @@
+#fundoI{
+    display: grid;
+    object-fit: cover;
+    grid-template-columns: minmax(33%, 300px) 33%;
+}
+
+#fundoI img{
+    margin-top: 70%;
+    justify-self: center;
+    grid-row: 1;
+    grid-column: 2;
+    width: 310%;
+    height: auto;
+}
+
+#fundoVerde{
+    background-color: #295924;
+    height: 1700px;
+    grid-row: 1;
+    grid-column: 1;
+}
+#fundoVermelho{
+    background-color: #B82F2F;
+    height: 1700px;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#cardapio{
+    background-color: #295924;
+}
