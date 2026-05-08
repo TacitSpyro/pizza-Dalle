@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
+
+
 #fundoI{
     display: grid;
-    object-fit: cover;
+    object-fit: none;
     grid-template-columns: minmax(33%, 300px) 33%;
 }
 
@@ -50,7 +52,12 @@ nav button{
     border-radius: 10px;
     width: 219px;
     align-self: center;
+    cursor: pointer;
+    height: 50px;
+    font-family: "Italianno";
+    font-size: 40px;
 }
+
 
 #fundoI img{
     margin-top: 70%;
@@ -67,6 +74,12 @@ nav button{
     grid-row: 1;
     grid-column: 1;
 }
+#fundoBranco{
+    background-color: white;
+    height: 1700px;
+    grid-row: 1;
+    grid-column: 2;
+}
 #fundoVermelho{
     background-color: #B82F2F;
     height: 1700px;
@@ -77,4 +90,5 @@ nav button{
 body{
     padding: 0;
     margin: 0;
+    background-color: #295924;
 }
