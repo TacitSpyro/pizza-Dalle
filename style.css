@@ -6,7 +6,7 @@
 #fundoI{
     display: grid;
     object-fit: none;
-    grid-template-columns: minmax(33%, 300px) 33%;
+    grid-template-columns: minmax(31%, 300px) 33%;
 }
 
 .texto{
@@ -29,7 +29,7 @@
 }
 
 #fundoI h3{
-    margin-top: 17%;
+    margin-top: 20%;
     grid-row: 1;
     grid-column: 2;
     justify-self: center;
@@ -66,11 +66,12 @@ nav button{
     grid-column: 2;
     width: 310%;
     height: auto;
+    margin-left: 8%;
 }
 
 #fundoVerde{
     background-color: #295924;
-    height: 1700px;
+    height: 1460px;
     grid-row: 1;
     grid-column: 1;
 }
@@ -82,7 +83,7 @@ nav button{
 }
 #fundoVermelho{
     background-color: #B82F2F;
-    height: 1700px;
+    height: 1460px;
     grid-row: 1;
     grid-column: 3;
 }
@@ -91,4 +92,67 @@ body{
     padding: 0;
     margin: 0;
     background-color: #295924;
+}
+
+#cardapio #texto3{
+    color: #f1f1f1;
+    margin-left: 10%;
+    font-size: 700%;
+}
+
+.carrousel{
+    align-self: center;
+    padding-bottom: 10%;
+    display: flex;
+    gap: 50px;
+    overflow-x:scroll;
+    scrollbar-width: none;
+}
+
+.card{
+    padding-left: 20px;
+    position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    font-family: "Italiana";
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.card img{
+    position: absolute;
+    width: 150px;
+    top: -13px;
+    right: -60px;
+    object-fit: cover;
+}
+
+.card h2{
+    width: 20px;
+}
+
+.info{
+    font-family: "Italiana";
+    display: flex;
+    flex-wrap: wrap;
+    color: #f1f1f1;
+    margin-bottom: 50px;
+}
+
+.info h2{
+    width: 700px;
+}
+
+.info img{
+    width: 600px;
+    height: auto;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
 }
