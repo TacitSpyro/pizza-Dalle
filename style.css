@@ -46,6 +46,7 @@ nav{
 }
 
 nav button{
+    cursor: pointer;
     border-width: 0;
     color: white;
     background: linear-gradient(to left,#B82F2F,#295924);
@@ -112,6 +113,7 @@ body{
 }
 
 .card{
+    cursor: pointer;
     padding-left: 20px;
     position: relative;
     overflow: visible;
@@ -150,6 +152,8 @@ body{
 }
 
 .info img{
+    margin-left: 5%;
+    margin-right: 5%;
     width: 600px;
     height: auto;
 }
@@ -177,4 +181,12 @@ body{
 .pesquisa{  
     height: 1500px;
     background-color: #B82F2F;
+    padding-top: 150px;
+}
+
+#Tfiliais{
+    margin-left: 150px;
+    font-family: "Italiana";
+    font-size: 700%;
+    color: #f1f1f1;
 }
