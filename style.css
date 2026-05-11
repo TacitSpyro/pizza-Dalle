@@ -101,12 +101,14 @@ body{
 }
 
 .carrousel{
+    margin-left: 36.3%;
+    width: 1186px;
     align-self: center;
-    padding-bottom: 10%;
     display: flex;
     gap: 50px;
     overflow-x:scroll;
     scrollbar-width: none;
+    margin-bottom: 10%;
 }
 
 .card{
@@ -155,4 +157,24 @@ body{
 #texto{
     display: flex;
     flex-direction: column;
+}
+
+.transicao{
+    max-width: 1308px;
+    display: flex;
+    flex-direction: row;
+}
+
+.triangulo{
+    margin-left: 1px;
+    width: 0;
+    height: 0;
+    border-left: 103.5px solid transparent;
+    border-right: 103.5px solid transparent;
+    border-bottom: 163.5px solid #B82F2F;
+}
+
+.pesquisa{  
+    height: 1500px;
+    background-color: #B82F2F;
 }
