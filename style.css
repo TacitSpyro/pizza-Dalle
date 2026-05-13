@@ -104,14 +104,14 @@ body{
     color: #f1f1f1;
     margin-left: 10%;
     font-size: 700%;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 .carrousel{
     border-radius: 10px 0px 0px 10px;
     padding: 1%;
     background-color: #c1c1c1;
-    margin-left: 34.3%;
+    margin-left: 35.74%;
     width: 1186px;
     align-self: center;
     display: flex;
@@ -173,7 +173,6 @@ body{
 }
 
 .transicao{
-    max-width: 1308px;
     display: flex;
     flex-direction: row;
 }
@@ -190,6 +189,9 @@ body{
 .pesquisa{
     background-color: #B82F2F;
     padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 
 #Tfiliais{
@@ -218,7 +220,6 @@ body{
 
 .fundoCinza{
     background-color: #c1c1c1;
-    margin-bottom: 80px;
     padding-top: 0.0009%;
     padding-left: 25px;
     padding-right: 25px;
@@ -255,4 +256,81 @@ body{
     margin-left: 50px;
     height: 785px;
     width: 700px;
+}
+
+.contato{
+    padding-top: 10%;
+    background-color: #B82F2F;
+    height: 700px;
+}
+
+.formulario{
+    background-color: #c1c1c1;
+    display: flex;
+}
+
+.formulario img{
+    object-fit: cover;
+    width: 2700px;
+    margin-left: -600px;
+    height: 600px;
+}
+
+.preencher{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.preencher input[type="text"]{
+    width: 700px;
+    height: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+}
+
+.preencher label{
+    font-size: 350%;
+}
+
+.preencher input[type="number"]{
+    padding: 10px;
+    width: 158px;
+    border-radius: 10px;
+    border-width: 0;
+    height: 10px;
+}
+
+.preencher input[type="email"]{
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    height: 10px;
+    width: 250px;
+}
+
+.preencher input[type="date"]{
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    height: 10px;
+    width: 120px;
+}
+
+.preencher select{
+    border-radius: 10px;
+    border-width: 0;
+    height: 30px;
+    width: 120px;
+}
+
+.footer{
+    background-color: #1c1c1c;
+    height: 200px
+}
+
+.footer label{
+    color: #f1f1f1;
 }
